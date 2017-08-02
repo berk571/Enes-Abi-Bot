@@ -16,7 +16,7 @@ var isSharded = false;
 setListeners(client);
 
 // log our bot in
-client.login(token);
+client.login(MzQyMjExMzgxMjcxMTk5NzQ2.DGMVQA.pUoNyXsv87k2xBFbs1tQxLyBE7g);
 
 function setListeners(client) {
 
@@ -72,7 +72,7 @@ function setListeners(client) {
         }
 
         logger.log(client.shard, "Reconnecting automatically...");
-        client.destroy().then(() => client.login(token))
+        client.destroy().then(() => client.login(MzQyMjExMzgxMjcxMTk5NzQ2.DGMVQA.pUoNyXsv87k2xBFbs1tQxLyBE7g))
 
     });
 
