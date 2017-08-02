@@ -94,6 +94,9 @@ function handleMessage(message) {
     if (content.startsWith("!trump")) {
         politician = "trump";
     }
+	if (content.startsWith("!enes")) {
+        politician = "enes";
+    }
     if (content.startsWith("!clinton")) {
         politician = "clinton";
     }
